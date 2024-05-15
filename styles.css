@@ -81,6 +81,10 @@ input[type="button"] {
     width: 200px;
 }
 
+input[type="button"]:hover {
+    background-color: rgb(78, 145, 54);
+}
+
 label[for="birthday"] {
     padding: 0 0 10px;
     display: block;
@@ -96,7 +100,8 @@ label[for$="male"] {
 }
 
 p.small-text {
-    font-size: 0.75rem;
+    padding-bottom: 15px;
+    font-size: 0.60rem;
     color: rgb(138, 138, 139, 1);
     width: 70%;
 }
