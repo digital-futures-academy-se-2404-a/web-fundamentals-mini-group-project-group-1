@@ -11,13 +11,7 @@ body {
 }
 
 h1 {
-    margin: 0 0 0 10%;
-    max-width: fit-content;
-    display: inline-block;
-    font-size: 3.5em;
-    font-size: 40px;
-    padding-top: 1%;
-    padding-bottom: 1%;
+    font-size: 2.5rem;
 }
 
 h2 {
@@ -136,11 +130,17 @@ nav {
     max-height: 150px;
 }
 
+#logo {
+    margin: 0 0 0 10%;
+    max-width: fit-content;
+    display: inline-block;
+}
+
 .login-form {
     position: relative;
     max-width: 50%;
     display: inline-block;
-    padding-left: 15%;
+    padding-left: 20%;
     padding-top: 1%;
     padding-bottom: 1%;
     vertical-align: top;
