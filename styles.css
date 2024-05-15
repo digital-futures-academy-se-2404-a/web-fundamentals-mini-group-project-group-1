@@ -1,4 +1,106 @@
-body{
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(232, 235, 238, 1);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+h2 {
+    margin: 10px 0;
+}
+
+p {
+    margin: 6px 0;
+}
+
+.container {
+    clear: both;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+#form-section {
+    width: 50%;
+    float: right;
+    padding: 50px;
+}
+
+#form-section p {
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+form {
+    margin: -2px;
+    width: 75%;
+}
+
+form > fieldset {
+    width: 100%;
+    border: 0;
+    padding: 10px 0;
+    margin: 0;
+}
+
+form > fieldset > select {
+    background: rgb(255, 255, 255);
+    border-radius: 4px;
+}
+
+input {
+    border-radius: 4px;
+    padding: 4px;
+    margin: 4px;
+}
+
+input[placeholder *="Name"] {
+    width: 45%;
+}
+
+input[type="button"] {
+    margin-left: -2px;
+    font-size: larger;
+    padding: 10px 20px;
+    border-radius: 6px;
+    color: rgb(255, 255, 255, 1);
+    background-color: rgb(92, 149, 72, 1);
+    width: 200px;
+}
+
+label[for="birthday"] {
+    padding: 0 0 10px;
+    display: block;
+}
+
+label[for$="male"] {
+    font-weight: bold;
+}
+
+.full-width {
+    width: 96%;
+
+}
+
+p.small-text {
+    font-size: 0.75rem;
+    color: rgb(138, 138, 139, 1);
+    width: 70%;
+}body{
     padding: 0;
     margin: 0;
 }
